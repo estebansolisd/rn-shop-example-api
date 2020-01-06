@@ -14,6 +14,10 @@ app.listen(port, () => {
   console.log("Server is booming on port 5000");
 });
 
+app.get("/", (req, res) => {
+  res.send("Hello");
+});
+
 app.post("/send", async (req, res) => {
   const request = mailjet.post("send", { version: "v3.1" }).request({
     Messages: [
