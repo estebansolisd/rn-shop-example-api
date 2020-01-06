@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
   res.send("Hello");
 });
 
-app.post("/send", async (req, res) => {
+app.post("/api/send", async (req, res) => {
   const request = mailjet.post("send", { version: "v3.1" }).request({
     Messages: [
       {

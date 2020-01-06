@@ -2,7 +2,13 @@
     "version": 2,
     "name": "rn-shop-example-api",
     "builds": [
-      { "src": "**/*.js", "use": "@now/node" }
+      { "src": "./index.js", "use": "@now/node-server" }
+    ],
+    "routes":[
+      {
+        "src": "/api/send",
+        "dist": "/"
+      }
     ]
   }
   
