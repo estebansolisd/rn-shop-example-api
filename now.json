@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "my-node-server-project",
+    "name": "rn-shop-example-api",
     "builds": [
       { "src": "**/*.js", "use": "@now/node" }
     ]

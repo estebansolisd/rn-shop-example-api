@@ -40,3 +40,6 @@ app.post("/send", async (req, res) => {
     status: response.Messages[0].Status ? "success" : "error"
   });
 });
+
+
+module.exports = app;
