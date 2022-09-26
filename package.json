@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "node-mailjet": "^3.3.1"
+    "node-mailjet": "^3.4.1"
   }
 }
